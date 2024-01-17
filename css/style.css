@@ -17,6 +17,8 @@ body {
   margin-left: auto;
 }
 
+
+/* Sitenav */
 .sitenav {
   width: 100%;
   background-color: #F6F6F6;
@@ -122,4 +124,37 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: #fff;
+}
+
+
+/* Site menu */
+.site-menu {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 30px;
+}
+
+.site-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-menu-item {
+  list-style: none;
+}
+
+.site-menu-item:not(:last-child) {
+  margin-right: 34.44px;
+}
+
+.site-menu-item-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7F7F7F;
+  text-decoration: none;
+}
+
+.search-menu-divider {
+  width: 100%;
+  height: 10px;
 }
