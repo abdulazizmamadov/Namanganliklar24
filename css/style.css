@@ -173,4 +173,39 @@ body {
 .aside-img {
   width: 100%;
   border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+
+/* Main content */
+.global-news {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.global-news-item {
+  width: 358px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  padding: 17px 20px;
+}
+
+.global-news-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  
+}
+.global-news-text {
+}
+.global-news-item-img {
+}
+.new-info {
+}
+.news-info-img {
+}
+.news-info-text {
 }
