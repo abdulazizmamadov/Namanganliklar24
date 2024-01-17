@@ -197,15 +197,36 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
-  
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #000000;
 }
+
 .global-news-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4A4B4C;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
+
 .global-news-item-img {
+  width: 100%;
+  height: 165px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
+
 .new-info {
+  display: flex;
+  align-items: center;
 }
 .news-info-img {
+  margin-right: 10px;
 }
+
 .news-info-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #5E5F61;
 }
