@@ -52,6 +52,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
 .moneys-item:not(:last-child) {
   margin-right: 25px;
 }
@@ -225,6 +226,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .news-info-img {
   margin-right: 10px;
 }
@@ -261,6 +263,7 @@ body {
   font-weight: 500;
   line-height: 26px;
 }
+
 .news-aside-link {
   padding: 13px 30px;
   border-radius: 10px;
@@ -274,7 +277,9 @@ body {
 .world-news {
   width: 100%;
   background-color: #fff;
+  margin-bottom: 170px;
 }
+
 .world-news-container {
   display: flex;
   flex-direction: column;
@@ -423,4 +428,61 @@ body {
 .little-news-aside-img {
   width: 100%;
   border-radius: 15px;
+}
+
+/* Site footer */
+.site-footer {
+  width: 100%;
+  background-color: #7297EF;
+  padding: 40px;
+}
+
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list-1 {
+  width: 264px;
+  color: #fff;
+
+}
+
+.footer-list-1-img {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-2 {
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-2-item {
+  list-style: none;
+  color: #fff;
+
+}
+
+.footer-list-2-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-list-3 {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-3-item {
+  color: #fff;
+  list-style: none;
+}
+
+.footer-list-3-item:not(:last-child) {
+  margin-bottom: 20px;
 }
